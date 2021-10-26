@@ -6,7 +6,7 @@ similar to how GPUs work, only the "cores" are normal software CPU threads.
 As a result this plotter is able to fully max out any storage device's bandwidth,
 simply by increasing the number of "cores", ie. threads.
 
-Sponsored by [Flexpool.io](https://www.flexpool.io/) - Check them out if you're looking for a secure and scalable Chia pool.
+Sponsored by [MIGPOOL.COM](https://migpool.com/)
 
 ## Usage
 
@@ -55,7 +55,7 @@ With the new default of 256 buckets it's about 0.5 GB per thread at most.
 
 Note: 128 GiB System RAM minimum required for RAM disk.
 
-## How to Support
+## How to Support primary developer
 
 XCH: xch1w5c2vv5ak08pczeph7tp5xmkl5762pdf3pyjkg9z4ks4ed55j3psgay0zh
 
@@ -164,8 +164,8 @@ keeping most of the load off the CPUs.
 <details>
   <summary>Windows</summary>
   
-  Binaries built by [stotiks](https://github.com/stotiks) can be found here:
-https://github.com/stotiks/chia-plotter/releases
+  Binaries built by [MIGPOOL](https://github.com/MIGPOOL) can be found here:
+https://github.com/MIGPOOL/chia-plotter/releases
 
 </details>
 
@@ -179,7 +179,7 @@ https://github.com/stotiks/chia-plotter/releases
   Then, clone and compile the project:
   ```bash
   # Checkout the source and install
-  git clone https://github.com/madMAx43v3r/chia-plotter.git
+  git clone https://github.com/MIGPOOL/chia-plotter.git
   cd chia-plotter
 
   git submodule update --init
@@ -192,7 +192,7 @@ https://github.com/stotiks/chia-plotter/releases
   <summary>CentOS 7</summary>
   
   ```bash
-  git clone https://github.com/madMAx43v3r/chia-plotter.git
+  git clone https://github.com/MIGPOOL/chia-plotter.git
   cd chia-plotter
 
   git submodule update --init
@@ -230,7 +230,7 @@ https://github.com/stotiks/chia-plotter/releases
   sudo make install
   # Checkout the source and install
   cd ~/
-  git clone https://github.com/madMAx43v3r/chia-plotter.git 
+  git clone https://github.com/MIGPOOL/chia-plotter.git 
   cd ~/chia-plotter
   git submodule update --init
   ./make_devel.sh
@@ -244,7 +244,7 @@ https://github.com/stotiks/chia-plotter/releases
   ```bash
   sudo apt install -y libsodium-dev cmake g++ git build-essential
   # Checkout the source and install
-  git clone https://github.com/madMAx43v3r/chia-plotter.git 
+  git clone https://github.com/MIGPOOL/chia-plotter.git 
   cd chia-plotter
 
   git submodule update --init
@@ -265,7 +265,7 @@ https://github.com/stotiks/chia-plotter/releases
   sudo apt install -t buster-backports cmake
   sudo apt install -y libsodium-dev g++ git
   # Checkout the source and install
-  git clone https://github.com/madMAx43v3r/chia-plotter.git 
+  git clone https://github.com/MIGPOOL/chia-plotter.git 
   cd chia-plotter
 
   git submodule update --init
@@ -286,7 +286,7 @@ https://github.com/stotiks/chia-plotter/releases
   # Now download chia-plotter's dependencies
   brew install libsodium cmake git autoconf automake libtool wget
   brew link cmake
-  git clone https://github.com/madMAx43v3r/chia-plotter.git 
+  git clone https://github.com/MIGPOOL/chia-plotter.git 
   cd chia-plotter
   git submodule update --init
   ./make_devel.sh
