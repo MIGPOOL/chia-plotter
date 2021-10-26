@@ -10,7 +10,7 @@ Sponsored by [MIGPOOL.COM](https://migpool.com/)
 
 ## Usage
 
-Join the Discord for support: https://discord.gg/pQwkebKnPB
+Join the Discord for support: https://discord.gg/JfHDJ3dtkc
 
 ```
 For <poolkey> and <farmerkey> see output of `chia keys show`.
